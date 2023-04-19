@@ -49,6 +49,7 @@ public class Hamburgueseria extends Application {
         LoginController controller = loader.getController();
         controller.setStage(stage);
         stage.show();
+        System.out.println("");
     }
 
     public static boolean login(String usuario, String contra) {
