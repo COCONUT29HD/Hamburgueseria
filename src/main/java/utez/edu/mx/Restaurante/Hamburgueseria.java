@@ -36,6 +36,7 @@ public class Hamburgueseria extends Application {
         Plato coca = new Plato("Coca", "gigante", "Bebida", 4.8);
         carta.add(marmolBurguer);
         carta.add(coca);
+        System.out.printf("hooa");
         launch();
     }
 
