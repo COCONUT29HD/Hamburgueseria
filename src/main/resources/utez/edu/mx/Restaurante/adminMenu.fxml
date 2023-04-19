@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="484.0" prefWidth="600.0" style="-fx-background-color: FFFFFF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="utez.edu.mx.Restaurante.Controllers.AdminMenuController">
+   <children>
+      <Pane prefHeight="66.0" prefWidth="600.0" style="-fx-background-color: #a1c5ab;">
+         <children>
+            <Button layoutX="506.0" layoutY="31.0" mnemonicParsing="false" onAction="#logoutButton" text="Cerrar sesion">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="24.0" fitWidth="28.0" layoutX="475.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/usuario.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="212.0" layoutY="6.0" prefHeight="55.0" prefWidth="176.0" text="Administrador">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Label>
+            <Label layoutX="518.0" layoutY="5.0" text="Admin">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Button layoutX="118.0" layoutY="328.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="87.0" text="Carta">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button layoutX="227.0" layoutY="328.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="107.0" text="Usuarios">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button layoutX="366.0" layoutY="328.0" mnemonicParsing="false" text="Empleados">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="198.0" fitWidth="242.0" layoutX="179.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/logo_admin.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

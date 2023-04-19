@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="484.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="utez.edu.mx.Restaurante.Controllers.UserMenuController">
+   <center>
+       <AnchorPane prefHeight="484.0" prefWidth="600.0" style="-fx-background-color: FFFFFF;" BorderPane.alignment="CENTER">
+          <children>
+            <Pane layoutX="-4.0" prefHeight="67.0" prefWidth="606.0" style="-fx-background-color: #c8ce13;">
+               <children>
+                  <Button layoutX="496.0" layoutY="38.0" mnemonicParsing="false" onAction="#logoutButton" style="-fx-background-color: #8ab8a8;" text="Cerrar sesion">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Label fx:id="userName" layoutX="524.0" layoutY="11.0" text="user" />
+                  <ImageView fitHeight="31.0" fitWidth="26.0" layoutX="483.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/usuario.png" />
+                     </image>
+                  </ImageView>
+                  <Pane layoutX="248.0" layoutY="17.0" prefHeight="36.0" prefWidth="104.0" style="-fx-background-color: #998496;">
+                     <children>
+                        <Text layoutX="7.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Inicio" wrappingWidth="89.3515625">
+                           <font>
+                              <Font name="Ink Free" size="30.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <Button layoutX="24.0" layoutY="19.0" mnemonicParsing="false" onAction="#cartaButton" style="-fx-background-color: ffff;" text="Carta">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+            <ImageView fitHeight="210.0" fitWidth="420.0" layoutX="94.0" layoutY="137.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/logo.png" />
+               </image>
+            </ImageView>
+          </children>
+       </AnchorPane>
+   </center>
+</BorderPane>

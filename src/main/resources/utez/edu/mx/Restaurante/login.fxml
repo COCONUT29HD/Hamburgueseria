@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="484.0" prefWidth="600.0" style="-fx-background-color: FFFFFF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="utez.edu.mx.Restaurante.Controllers.LoginController">
+   <children>
+      <Label alignment="CENTER" layoutX="216.0" layoutY="155.0" prefHeight="27.0" prefWidth="149.0" text="INICIO DE SESIÓN" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="user" layoutX="215.0" layoutY="256.0" onKeyPressed="#messageClean" />
+      <Label alignment="CENTER" layoutX="95.0" layoutY="229.0" prefHeight="0.0" prefWidth="390.0" text="Usuario" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="94.0" layoutY="297.0" prefHeight="0.0" prefWidth="390.0" text="Contraseña" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="register" layoutX="320.0" layoutY="369.0" mnemonicParsing="false" onAction="#onRegisterButtonClick" text="Registrarse" />
+      <Label fx:id="message" layoutX="181.0" layoutY="349.0" prefHeight="20.0" prefWidth="220.0" textFill="RED">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="181.0" layoutY="369.0" mnemonicParsing="false" onAction="#onLoginButtonClick" text="Iniciar sesion" />
+      <Label alignment="CENTER" layoutX="2.0" layoutY="14.0" prefHeight="53.0" prefWidth="577.0" textAlignment="CENTER" textFill="#b27171">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="password" layoutX="215.0" layoutY="324.0" onKeyPressed="#messageClean" />
+      <ImageView fitHeight="43.0" fitWidth="40.0" layoutX="280.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/datos-del-usuario.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="263.0" layoutY="410.0" mnemonicParsing="false" onAction="#clean" text="Limpiar" />
+      <ImageView fitHeight="159.0" fitWidth="333.0" layoutX="136.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/logo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
