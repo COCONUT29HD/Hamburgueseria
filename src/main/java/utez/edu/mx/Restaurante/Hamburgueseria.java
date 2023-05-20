@@ -22,6 +22,8 @@ public class Hamburgueseria extends Application {
     private static final ArrayList<Mesero> meseros = new ArrayList<>();
 
     public static void main(String[] args){
+        usuarios.add("Mauro");
+        contras.add("1234");
         usuarios.add("s");
         contras.add("s");
         usuarios.add("Lauro");
